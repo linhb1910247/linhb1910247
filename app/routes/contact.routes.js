@@ -15,5 +15,5 @@ router.put("/:id", contacts.update);
 
 router.delete("/:id", contacts.delete);
 
-router.delete("/", contacts.deleteAll);
+
 module.exports=router;
